@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechprogramComponent implements OnInit {
 
+  UpdateIndicator: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toUpdate() { 
+    this.UpdateIndicator = true;
+  } 
+
+  toCancel() {
+    this.UpdateIndicator = false;
+  } 
 }

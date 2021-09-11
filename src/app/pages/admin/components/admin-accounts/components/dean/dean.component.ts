@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeanComponent implements OnInit {
 
+  AssignIndicator: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toAssign() { 
+    this.AssignIndicator = true;
+  } 
+
+  toCancel() {
+    this.AssignIndicator = false;
+  } 
 }

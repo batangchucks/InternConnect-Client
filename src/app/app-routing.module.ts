@@ -7,6 +7,7 @@ import { ForgotpassComponent } from './pages/forgotpass/forgotpass.component';
 import { EndorsementformComponent } from './pages/endorsementform/endorsementform.component';
 import { CompanydirectoryComponent } from './pages/companydirectory/companydirectory.component';
 import { CompanyprofileComponent } from './pages/companyprofile/companyprofile.component';
+import { StatusComponent } from './pages/landing/components/status/status.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { AdminDashboardComponent } from './pages/admin/components/admin-dashboard/admin-dashboard.component';
 import { AdminEsignatureComponent } from './pages/admin/components/admin-esignature/admin-esignature.component';
@@ -52,6 +53,9 @@ const routes: Routes = [
   },
   { path: 'companyprofile',
     component: CompanyprofileComponent,
+  },
+  { path: 'status',
+    component: StatusComponent,
   },
   { path: 'admin',
     component: AdminComponent,

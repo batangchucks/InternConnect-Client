@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminAcadyearComponent implements OnInit {
 
+  AcadYearIndicator: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  toConfirm() { 
+    this.AcadYearIndicator = true;
+  } 
+
+  toCancel() {
+    this.AcadYearIndicator = false;
+  } 
 }

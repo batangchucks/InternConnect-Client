@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PendingSubmissionsComponent implements OnInit {
 
+  SentIndicator: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toTrue() {
+    this.SentIndicator = true;
+  }
+
+  toFalse() {
+    this.SentIndicator = false;
   }
 
 }

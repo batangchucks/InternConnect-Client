@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminEsignatureComponent implements OnInit {
 
+  EsigIndicator: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  AcceptToTrue() { 
+    this.EsigIndicator = false;
+  } 
 
 }
