@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { LandingComponent } from './pages/landing/landing.component';
+import { OnboardingComponent } from './pages/onboarding/onboarding.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ForgotpassComponent } from './pages/forgotpass/forgotpass.component';
 import { EndorsementformComponent } from './pages/endorsementform/endorsementform.component';
@@ -37,6 +38,9 @@ const routes: Routes = [
   {
     path: '',
     component: LandingComponent,
+  },
+  { path: 'onboarding', 
+    component: OnboardingComponent,
   },
   { path: 'login',  
     component: LoginComponent,
