@@ -12,7 +12,6 @@ import { StatusComponent } from './pages/landing/components/status/status.compon
 import { AdminComponent } from './pages/admin/admin.component';
 import { AdminDashboardComponent } from './pages/admin/components/admin-dashboard/admin-dashboard.component';
 import { AdminEsignatureComponent } from './pages/admin/components/admin-esignature/admin-esignature.component';
-import { AdminSubmissionsComponent } from './pages/admin/components/admin-submissions/admin-submissions.component';
 import { NewSubmissionsComponent } from './pages/admin/components/admin-submissions/components/new-submissions/new-submissions.component';
 import { PendingSubmissionsComponent } from './pages/admin/components/admin-submissions/components/pending-submissions/pending-submissions.component';
 import { ApprovedSubmissionsComponent } from './pages/admin/components/admin-submissions/components/approved-submissions/approved-submissions.component';
@@ -69,9 +68,6 @@ const routes: Routes = [
       },
       { path: 'esignature',
         component: AdminEsignatureComponent,
-      },
-      { path: 'admin-submissions',
-        component: AdminSubmissionsComponent,
       },
       { path: 'new-submissions',
         component: NewSubmissionsComponent,
