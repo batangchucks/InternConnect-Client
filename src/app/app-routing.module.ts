@@ -31,6 +31,7 @@ import { AdminEventsComponent } from './pages/admin/components/admin-events/admi
 import { AdminIsoComponent } from './pages/admin/components/admin-iso/admin-iso.component';
 import { AdminAcadyearComponent } from './pages/admin/components/admin-acadyear/admin-acadyear.component';
 import { AdminLogsComponent } from './pages/admin/components/admin-logs/admin-logs.component';
+import { AdminReturnisoComponent } from './pages/admin/components/admin-iso/components/admin-returniso/admin-returniso.component';
 
 
 const routes: Routes = [
@@ -119,6 +120,9 @@ const routes: Routes = [
       },
       { path: 'iso',
       component: AdminIsoComponent,
+      },
+      { path: 'returniso',
+        component: AdminReturnisoComponent,
       },
       { path: 'acadyear',
       component: AdminAcadyearComponent,

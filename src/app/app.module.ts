@@ -43,6 +43,7 @@ import { ProgramsComponent } from './pages/admin/components/admin-accounts/compo
 import { ChairComponent } from './pages/admin/components/admin-accounts/components/chair/chair.component';
 import { DeanComponent } from './pages/admin/components/admin-accounts/components/dean/dean.component';
 import { TechprogramComponent } from './pages/admin/components/admin-accounts/components/techprogram/techprogram.component';
+import { AdminReturnisoComponent } from './pages/admin/components/admin-iso/components/admin-returniso/admin-returniso.component';
 
 @NgModule({
   declarations: [
@@ -87,6 +88,7 @@ import { TechprogramComponent } from './pages/admin/components/admin-accounts/co
     ChairComponent,
     DeanComponent,
     TechprogramComponent,
+    AdminReturnisoComponent,
 
   ],
   imports: [
